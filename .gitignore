@@ -1,0 +1,24 @@
+# 模型与转换产物（体积大、与设备绑定）
+*.pt
+*.pth
+*.wts
+*.onnx
+*.engine
+*.trt
+
+# 构建与运行产物
+build/
+images/
+output/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
